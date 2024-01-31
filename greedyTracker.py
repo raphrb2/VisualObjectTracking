@@ -1,7 +1,7 @@
 import pandas as pd
-from bbox_operations import *
-from assignments import greedy
-from utils import *
+from tools.bbox_operations import *
+from tools.assignments import greedy
+from tools.utils import *
 import numpy as np
 import cv2
 

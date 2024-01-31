@@ -1,6 +1,6 @@
 import argparse
-from KalmanFilter import KalmanFilter
-from detector import detect
+from tools.KalmanFilter import KalmanFilter
+from tools.detector import detect
 import cv2
 
 def track_objects(video_path):
